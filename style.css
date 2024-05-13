@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.carousel-inner{
+    height: auto;
+    position: relative;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.social-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.facebook:before {
+    content: "\f09a";
+}
+
+.twitter:before {
+    content: "\f099";
+}
+
+.instagram:before {
+    content: "\f16d";
+}
+
+.linkedin:before {
+    content: "\f0e1";
+}
+
+.snapchat:before {
+    content: "\f2ac";
+}
+.navbar{
+    position:absolute;
+    z-index: 1000;
+}
+.text{
+    position: absolute;
+     z-index: 1000;
+    bottom: 0%;
+    color: white;
+    text-align: center;
+}
+.cards{
+    margin-top: 40px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5mYcQ6LQKu7UKrwGxH202zr1ir3sIm-sPSFcILL5JuQ&s);
+}
+/* doctor information */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(168, 166, 166);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.doctor-info {
+    display: flex;
+}
+
+.doctor-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.doctor-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.doctor-paragraph {
+    flex: 2;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: black;
+}
+
+.pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .doctor-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(168, 159, 159);
+  }
+  .logo-2{
+    background: transparent;
+  }

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/dc0992326e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="contact-info">
+          <i class="fa-solid fa-phone"></i>
+          <span class="phone-number">123-456-7890</span>
+        </div>
+        <div class="social-icons">
+          <div><i class="fa-brands fa-facebook"></i></div>
+          <div><i class="fa-brands fa-twitter"></i></div>
+          <div><i class="fa-brands fa-linkedin"></i></div>
+          <div><i class="fa-solid fa-camera-retro"></i></div>
+        </div>
+      </div>
+    </header>
+    <!-- moving images with nav bar above -->
+    <nav class="navbar sticky-top bg-body-secondary">
+      <a
+        class="btn btn-secondary"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        Click me for all information and Appointment.
+      </a>
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            All About Us
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Optometrists provide optical and medical eye care. They prescribe
+            corrective lenses to aid refractive errors (e.g. myopia, hyperopia,
+            presbyopia, astigmatism, double vision). They manage vision
+            development in children including amblyopia diagnosis/treatment.
+            Some perform vision therapy.
+          </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiix9oSdPExFsWV7mfj5ZRwMlQ61yaDr6Sw2kzIBdWAA&s"
+            alt=""
+          />
+          <div class="dropdown mt-3">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown button here
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Refraction</a></li>
+              <li><a class="dropdown-item" href="#">Squint</a></li>
+              <li><a class="dropdown-item" href="#">Surgery</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-secodary">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/000/607/119/original/eye-care-logo-and-symbols-template-vector.jpg "
+                height="100"
+                width="200px"
+                alt=""
+                class="logo-2"
+              />
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Doctor's information</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Email</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <!-- text written on image -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel-slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.advancedeyecarefl.com/wp-content/uploads/Advice-from-eye-surgeon-Dr.-Fischer-1024x683.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.vistareye.com/wp-content/uploads/2015/06/iStock-1147641999.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://griffey2020.com/wp-content/uploads/2024/03/Eye-doctor-with-old-age-patient-in-chair-examining-for-cataract-surgery.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+    <div class="text">
+      <h1>FRIENDLY GENTLE OPTOMETRISTS</h1>
+      <button type="submit" style="height: 100; width: 500px">
+        Great platform for optometrists and opthomologists
+      </button>
+      <h2>
+        Community eye care should be integrated into district health care
+        services, characterised by wide access, community participation, and
+        health promotion.
+      </h2>
+      <button type="button">Aout Us</button>
+      <button type="button">Appointment</button>
+    </div>
+    <!-- cards -->
+    <div class="cards">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://www.eyedoctor.co.in/cimage29/110287discpiconly.jpg"
+              class="card-img-top"
+              alt="..."
+              height="280px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Refraction</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN3yiX9AlpJwEI7Rw3uBRTdDBpwuDR7YwLutEYyFhnOA&s"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cycloplegic Refraction</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last upd</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ50MFAdiOF_RC8hYYKrkCX0BmH3cXFtjf5b_2OF2-KQ&s"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Squint assessment</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <div class="doctor-info">
+            <div class="doctor-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPzIYUguuPGsJvnaJ0t5rL_rtf4wN0e6Uj-qzhgr6m7A&s"
+                alt="Doctor"
+              />
+            </div>
+            <div class="doctor-paragraph">
+              <pre class="pre">
+                Routine eye exams.
+                One of the most popular reasons people may
+                visit an optometry office is for a routine eye exam, which
+                individuals should complete annually, especially if there is a
+                history of eye problem 
+                Glasses or contacts
+                General
+                eye care
+                Glaucoma or cataract treatment.
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="doctor.JS"></script>
+  </body>
+  <footer>
+    <div class="container-2">
+      <div class="doctor-info">
+        <h3>Dr.Anila Bilal</h3>
+      </div>
+      <div>
+        <p>Address: 123 Main Street, Sargodha,Pakistan</p>
+        <p>Email: anilabilal@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+    </div>
+  </footer>
+</html>
